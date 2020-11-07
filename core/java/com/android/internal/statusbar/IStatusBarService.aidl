@@ -240,4 +240,9 @@ interface IStatusBarService
     void setBlockedGesturalNavigation(boolean blocked);
 
     void screenPinningStateChanged(boolean enabled);
+
+    /**
+     * Starts the default assistant app.
+     */
+    void startAssist(in Bundle args);
 }
