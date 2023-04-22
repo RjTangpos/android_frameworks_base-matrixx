@@ -6543,6 +6543,11 @@ public final class Settings {
         public static final String QQS_LAYOUT = "qqs_layout";
 
         /**
+         * @hide
+         */
+        public static final String QS_UI_STYLE = "qs_ui_style";
+
+        /**
          * Which Vibration Pattern to use
          * 0: dzzz-dzzz
          * 1: dzzz-da
