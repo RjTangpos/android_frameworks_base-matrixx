@@ -170,4 +170,13 @@
 
     <!-- Bootleg unneccesary gradient declaration | Just for our shishu bars -->
     <java-symbol type="color" name="bootleg_accent_gradient_end_color" />
+
+    <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
+    <java-symbol type="string" name="config_netflixSpoofModel" />
+
+    <!-- AttestationHooks -->
+    <java-symbol type="string" name="config_stockFingerprint" />
+
+    <!-- Whether Pixel props is enabled -->
+    <java-symbol type="bool" name="config_enablePixelProps" />
 </resources>
