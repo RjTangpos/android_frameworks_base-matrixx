@@ -838,8 +838,8 @@ public final class SystemServer implements Dumpable {
                         uptimeMillis);
             }
 
-            Slog.i("RisingOS",
-                "Welcome to RisingTech! We believe that you'll love it. " +
+            Slog.i("Matrixx",
+                "Welcome to Matrixx! We believe that you'll love it. " +
                 "Ready to... uh... U!");
 
             // In case the runtime switched since last boot (such as when
