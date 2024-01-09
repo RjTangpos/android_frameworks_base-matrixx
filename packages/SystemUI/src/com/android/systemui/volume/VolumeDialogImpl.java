@@ -471,7 +471,6 @@ public class VolumeDialogImpl implements VolumeDialog, Dumpable,
             mDialog.dismiss();
         }
         mContext.getTheme().applyStyle(mContext.getThemeResId(), true);
-        mConfigChanged = true;
     }
 
     public void init(int windowType, Callback callback) {
@@ -600,13 +599,6 @@ public class VolumeDialogImpl implements VolumeDialog, Dumpable,
 
     private void initDialog(int lockTaskModeState) {
         Log.d(TAG, "initDialog: called!");
-        if (mDialog != null) {
-            mDialog.dismiss();
-            mDialog = null;
-        }
-        if (mConfigurableTexts != null) {
-            mConfigurableTexts = null;
-        }
         mDialog = new CustomDialog(mContext);
         initDimens();
         adjustPositionOnScreen();
